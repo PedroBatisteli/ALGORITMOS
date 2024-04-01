@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:53:32 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjo0ODozMiAiOzI5MDI="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjo1MzozMiAiOzE7MzAwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nd, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="nd" expression="n*(n-3)/2"/>
+            <output expression="nd" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

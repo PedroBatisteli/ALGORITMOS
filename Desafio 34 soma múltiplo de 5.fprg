@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 10:56:04 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIxMDoyMTowNiAiOzI4OTU="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIxMDo1NjowNCAiOzE7MzAwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n&#250;mero, soma, i" type="Integer" array="False" size=""/>
+            <input variable="n&#250;mero"/>
+            <assign variable="soma" expression="0"/>
+            <for variable="i" start="1" end="n&#250;mero-1" direction="inc" step="1">
+                <if expression="i%5==0">
+                    <then>
+                        <assign variable="soma" expression="soma+i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

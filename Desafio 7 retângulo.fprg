@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:57:42 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDozODoxNCAiOzI5MDA="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDo1Nzo0MiAiOzE7MzAxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="per&#237;metro, altura, medidadiag, base, diagonal, area" type="Integer" array="False" size=""/>
+            <input variable="base"/>
+            <input variable="altura"/>
+            <assign variable="diagonal" expression="(base^2*altura^2)/2"/>
+            <assign variable="per&#237;metro" expression="base+altura+diagonal"/>
+            <assign variable="area" expression="base*altura"/>
+            <output expression="&quot;A diagonal do ret&#226;ngulo &#233; de &quot;&amp; diagonal" newline="True"/>
+            <output expression="&quot;O per&#237;metro do ret&#226;ngulo &#233; &quot;&amp; per&#237;metro" newline="True"/>
+            <output expression="&quot;A area do ret&#226;ngulo &#233; &quot;&amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

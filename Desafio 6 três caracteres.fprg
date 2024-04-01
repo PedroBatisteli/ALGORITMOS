@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:18:20 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDoxMzozOCAiOzI4OTk="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDoxMzo0MiAiOzE7TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDowNDowMiAiO0Rlc2FmaW8gNiDDumx0aW1vIGNhcmFjdGVyLmZwcmc7ODk3Mg=="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDoxODoyMCAiOzE7MzAwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, um, dois, tres" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <output expression="nome" newline="True"/>
+            <assign variable="um" expression="Char(nome,0)"/>
+            <assign variable="dois" expression="Char(nome,1)"/>
+            <assign variable="tres" expression="Char(nome,2)"/>
+            <output expression="um&amp;dois&amp;tres" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

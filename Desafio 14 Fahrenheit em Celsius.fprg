@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:11:29 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjowOTowMSAiOzI4OTU="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjowOTowMyAiOzE7TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjowMjoyMyAiO0Rlc2FmaW8gMTQgQ2Vsc2l1cyBlbSBGYWhyZW5oZWl0LmZwcmc7OTM4MA=="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjoxMToyOSAiOzE7MzAwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Fahrenheit, Celsius" type="Real" array="False" size=""/>
+            <input variable="Fahrenheit"/>
+            <assign variable="Celsius" expression="(Fahrenheit-32)*5/9"/>
+            <output expression="Celsius" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

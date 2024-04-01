@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:43:04 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjoyNzowNiAiOzI5MDA="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjo0MzowNCAiOzI7MzAwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, aux" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="aux" expression="a"/>
+            <assign variable="a" expression="b"/>
+            <assign variable="b" expression="aux"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

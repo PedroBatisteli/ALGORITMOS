@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 09:53:03 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIwOTowMjoyNCAiOzI5MDI="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIwOTo1MzowMyAiOzE7MzAxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="prim, prim2" type="String" array="False" size=""/>
+            <declare name="verbo, verboi, verboi1" type="String" array="False" size=""/>
+            <input variable="verbo"/>
+            <assign variable="verboi" expression="Char(verbo,len(verbo)-2) &amp; Char(verbo,len(verbo)-1)"/>
+            <if expression="verboi==&quot;ar&quot;">
+                <then>
+                    <output expression="&quot;Seu verbo &#233; a primeira conjuga&#231;&#227;o&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="verboi==&quot;er&quot;|| verboi==&quot;or&quot;">
+                        <then>
+                            <output expression="&quot;Seu verbo est&#225; na segunda conjuga&#231;&#227;o&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="verboi==&quot;ir&quot;">
+                                <then>
+                                    <output expression="&quot;Seu verbo est&#225; na terceira conjuga&#231;&#227;o&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Escolher um verbo infinitivo&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

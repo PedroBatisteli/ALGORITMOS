@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 10:13:32 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87REVTS1RPUC1IUE5TUzgwOzIwMjQtMDItMDU7IjA4OjMyOjUxICI7MzcxNw=="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87REVTS1RPUC1IUE5TUzgwOzIwMjQtMDItMDU7IjEwOjEzOjMyICI7MjszODE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m&#233;dia, a, b, c, frequ&#234;ncia, presen&#231;a, aulas, faltas" type="Integer" array="False" size=""/>
+            <declare name="mensagem" type="String" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="faltas"/>
+            <assign variable="m&#233;dia" expression="(a*2+b*3+c*5)/10"/>
+            <assign variable="aulas" expression="100"/>
+            <output expression="m&#233;dia" newline="True"/>
+            <if expression="(m&#233;dia &gt;= 7.0 &amp;&amp; faltas &lt; 0.25*aulas)">
+                <then>
+                    <assign variable="mensagem" expression="nome  &amp; &quot; APROVADO &amp; m&#233;dia&quot; &amp; m&#233;dia &amp; &quot; e &quot; &amp; faltas &amp; &quot; faltas &quot;"/>
+                </then>
+                <else>
+                    <assign variable="mensagem" expression="nome &amp; &quot; REPROVADO &amp; m&#233;dia&quot; &amp; m&#233;dia &amp; &quot; e &quot; &amp; faltas &amp; &quot; faltas&quot;"/>
+                </else>
+            </if>
+            <output expression="mensagem" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

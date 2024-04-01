@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 10:10:26 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIwOTo1NDoyMCAiOzI5MDU="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIxMDowMTowMSAiOzE7TWF0ZXVzLmF1Z3VzdG87REVTS1RPUC1IUE5TUzgwOzIwMjQtMDEtMjk7IjA4OjI2OjUyICI7RXhlcmPDrWNpbzAwNS5mcHJnOzg1MjE="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIxMDoxMDoyNiAiOzI7MzAwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, soma, numero" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <for variable="a" start="25&#13;&#10;" end="200" direction="inc" step="1&#13;&#10;">
+                <if expression="a % 2 == 0">
+                    <then>
+                        <assign variable="soma" expression="soma+a"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

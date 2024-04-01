@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:20:06 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDoxODoyNCAiOzI4OTk="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDoxOTowMiAiOzE7TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDowNDowMiAiO0Rlc2FmaW8gNiDDumx0aW1vIGNhcmFjdGVyLmZwcmc7ODk3NA=="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDoyMDowNiAiOzE7MzAwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, quarto" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <output expression="nome" newline="True"/>
+            <assign variable="quarto" expression="Char(nome,3)"/>
+            <output expression="quarto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

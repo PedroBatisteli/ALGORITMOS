@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 01:56:37 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMTozMToxOCAiOzI4OTc="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMTo1NjozNyAiOzE7MzAxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="termo10, raz&#227;o, n, a1" type="Integer" array="False" size=""/>
+            <input variable="a1"/>
+            <input variable="n"/>
+            <input variable="raz&#227;o"/>
+            <assign variable="termo10" expression="a1+(n-1)*raz&#227;o"/>
+            <output expression="termo10" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

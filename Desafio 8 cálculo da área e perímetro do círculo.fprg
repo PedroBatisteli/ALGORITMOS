@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 11:20:06 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMTowOTowOSAiOzI5MDM="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMToyMDowNiAiOzE7MzAwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, per&#237;metro, area" type="Real" array="False" size=""/>
+            <input variable="raio"/>
+            <assign variable="area" expression="3.14*Raio^2"/>
+            <output expression="area" newline="True"/>
+            <assign variable="per&#237;metro" expression="2*3.14*Raio"/>
+            <output expression="per&#237;metro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 01:31:14 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMToyOTowNiAiOzI5MDI="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMTozMToxNCAiOzE7MzAwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cateto1, Hipotenusa, cateto2" type="Real" array="False" size=""/>
+            <input variable="cateto1"/>
+            <input variable="cateto2"/>
+            <assign variable="Hipotenusa" expression="(cateto1^2+cateto2^2)^(1/2)"/>
+            <output expression="Hipotenusa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

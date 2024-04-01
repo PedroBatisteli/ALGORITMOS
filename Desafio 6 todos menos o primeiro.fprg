@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 11:06:51 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMDo1Nzo1MCAiOzI5MDE="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIxMTowNjo1MSAiOzE7MzAwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, tmp" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <input variable="nome"/>
+            <output expression="nome" newline="True"/>
+            <assign variable="tmp" expression="&quot;&quot;"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;len(nome)">
+                <assign variable="tmp" expression="tmp &amp; Char(nome,i)"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <output expression="tmp" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 08:08:30 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwNDozNjo0OCAiOzI5MDg="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA2OyIwODowODozMCAiOzM7MzAxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, pm, nm, VA, n" type="Real" array="False" size=""/>
+            <input variable="pm"/>
+            <input variable="i"/>
+            <input variable="n"/>
+            <assign variable="VA" expression="pm*((1+i)^n - 1)/i"/>
+            <output expression="VA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:08:55 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjowMjoyMyAiOzI4OTI="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjowODo1NSAiOzE7MzAxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Fahrenheit, Celsius" type="Real" array="False" size=""/>
+            <input variable="Celsius"/>
+            <assign variable="Fahrenheit" expression="(Celsius*9/5)+32"/>
+            <output expression="Fahrenheit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

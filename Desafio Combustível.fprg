@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:26:22 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjoxNjowMCAiOzI4OTI="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwMjoyNjoyMiAiOzE7MzAwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vlcombust, kmlitr, reais, distpercorrida" type="Real" array="False" size=""/>
+            <input variable="distpercorrida"/>
+            <input variable="vlcombust"/>
+            <input variable="kmlitr"/>
+            <assign variable="reais" expression="vlcombust*(distpercorrida/kmlitr)"/>
+            <output expression="reais" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

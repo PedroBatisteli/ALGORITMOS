@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 09:26:36 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwODo0OTowOCAiOzI5MTI="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87TlQzNzsyMDI0LTAzLTA0OyIwOToyNjozNiAiOzI7MzAxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angulo, seno, cosseno, tangente" type="Real" array="False" size=""/>
+            <input variable="angulo"/>
+            <assign variable="seno" expression="Sin(angulo)"/>
+            <assign variable="cosseno" expression="Cos(angulo)"/>
+            <assign variable="tangente" expression="tan(angulo)"/>
+            <output expression="&quot;Sin(angulo)&quot; &amp; seno &amp; &quot;Cos(angulo)&quot; &amp; cosseno &amp; &quot;Tan(angulo)&quot; &amp; tangente" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

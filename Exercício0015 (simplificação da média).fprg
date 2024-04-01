@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Mateus.augusto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 09:14:52 "/>
+        <attribute name="created" value="TWF0ZXVzLmF1Z3VzdG87REVTS1RPUC1IUE5TUzgwOzIwMjQtMDItMDU7IjA5OjEwOjE5ICI7MzcxOA=="/>
+        <attribute name="edited" value="TWF0ZXVzLmF1Z3VzdG87REVTS1RPUC1IUE5TUzgwOzIwMjQtMDItMDU7IjA5OjE0OjUyICI7MTszODI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="media" expression="(a+b+c)/3"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
